@@ -176,7 +176,7 @@
   line-height: 29px;
   letter-spacing: 0%;
 }
-.event .event-description h2{
+.event .event-description h2 {
   color: rgb(7, 2, 17);
   font-family: Merriweather;
   font-size: 48px;
@@ -188,7 +188,7 @@
   margin-bottom: 24px;
   margin-top: 16px;
 }
-.event .event-description p{
+.event .event-description p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -197,21 +197,21 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.event .event-border{
+.event .event-border {
   width: 463px;
   height: 463px;
   border: 15px solid rgb(255, 0, 0);
   border-radius: 50%;
 }
-.event .event-border img{
+.event .event-border img {
   position: relative;
   top: 8%;
   left: 8%;
 }
-.event .event-sort-description{
+.event .event-sort-description {
   width: 30%;
 }
-.event .event-sort-description h2{
+.event .event-sort-description h2 {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 48px;
@@ -221,7 +221,7 @@
   text-align: left;
   margin-bottom: 16px;
 }
-.event .event-sort-description p{
+.event .event-sort-description p {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -230,52 +230,70 @@
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 45px;
-}/* end event */
+} /* end event */
 
 /* Sale */
-.sale{
+.sale {
   margin: 120px 10%;
   margin-top: 150px;
 }
-.sale-content{
+.sale-content {
   text-align: center;
   margin-bottom: 64px;
 }
-.sale-content h5{
+.sale-content h5 {
   color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0%;
-margin-bottom: 16px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
 }
-.sale-content h2{
+.sale-content h2 {
   font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 91px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 28px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 28px;
 }
-.sale-content span{
+.sale-content span {
   color: rgb(255, 0, 0);
 }
-.sale-content p{
+.sale-content p {
   margin-bottom: 64px;
   color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.sale-img{
+.sale-img {
   background: url('./images/Rectangle\ 2.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px 0px 16px 16px;
+  height: 200px;
+  display: flex;
+  gap: 240px;
+  margin-top: 500px;
 }
-/* end Sale */
+.sale-img img:first-child {
+  width: 675px;
+  height: 578px;
+  position: relative;
+  left: 5%;
+  bottom: 180%;
+}
+.sale-img img:last-child {
+  /* Vector */
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 20%;
+  bottom: 180%;
+}/* end Sale */
