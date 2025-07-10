@@ -206,10 +206,10 @@
   top: 8%;
   left: 8%;
 }
-.event .event-sort-description {
+.event .event-sort-description{
   width: 30%;
 }
-.event .event-sort-description h2 {
+.event .event-sort-description h2{
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 48px;
@@ -217,8 +217,9 @@
   line-height: 58px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 16px;
 }
-.event .event-sort-description p {
+.event .event-sort-description p{
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
